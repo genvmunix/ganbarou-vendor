@@ -191,7 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n7000/proprietary/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh \
     vendor/samsung/n7000/proprietary/addon.d/71-gapps-faceunlock.sh:system/addon.d/71-gapps-faceunlock.sh \
     vendor/samsung/n7000/proprietary/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-    vendor/samsung/n7000/proprietary/app/FaceLock.apk.apk:system/app/FaceLock.apk.apk \
+    vendor/samsung/n7000/proprietary/app/FaceLock.apk:system/app/FaceLock.apk \
     vendor/samsung/n7000/proprietary/app/GalleryGoogle.apk:system/app/GalleryGoogle.apk \
     vendor/samsung/n7000/proprietary/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/samsung/n7000/proprietary/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
