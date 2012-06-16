@@ -100,14 +100,14 @@ rm -rf $REPACK
 echo
 
 # Create a md5 checksum image of the repacked package
-#(
-#img=`basename $OUTFILE`
-#cd `dirname $OUTFILE`
-#$MD5 $img >$img.md5sum
+(
+img=`basename $OUTFILE`
+cd `dirname $OUTFILE`
+$MD5 $img >$img.md5sum
 echo
 echo "Package complete: $OUTFILE"
-#cat $img.md5sum
-#echo
-#)
+cat $img.md5sum
+echo
+)
 
 exit 0
