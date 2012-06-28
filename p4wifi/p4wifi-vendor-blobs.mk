@@ -153,14 +153,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p4wifi/proprietary/lib/omxplayer.so:system/lib/omxplayer.so 
 # Samsung files
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p4wifi/proprietary/app/PolarisOffice.apk:system/app/PolarisOffice.apk \
+    vendor/samsung/p4wifi/proprietary/app/PolarisOfficeTablet.apk:system/app/PolarisOfficeTablet.apk \
     vendor/samsung/p4wifi/proprietary/apps/SamsungAppsUNAService.apk:system/apps/SamsungAppsUNAService.apk \
     vendor/samsung/p4wifi/proprietary/etc/permissions/touchwiz.xml:system/etc/permissions/touchwiz.xml \
     vendor/samsung/p4wifi/proprietary/framework/twframework.jar:system/framework/twframework.jar \
     vendor/samsung/p4wifi/proprietary/framework/twframework-res.apk:system/framework/twframework-res.apk \
     vendor/samsung/p4wifi/proprietary/framework/secmediarecorder.jar:system/framework/secmediarecorder.jar \
     vendor/samsung/p4wifi/proprietary/lib/libglcanvas.so:system/lib/libglcanvas.so \
-    vendor/samsung/p4wifi/proprietary/lib/libpolarisoffice.so:system/lib/libpolarisoffice.so 
+    vendor/samsung/p4wifi/proprietary/lib/libtfapps-polaris.so:system/lib/libtfapps-polaris.so \
+    vendor/samsung/p4wifi/proprietary/lib/libtflua-polaris.so:system/lib/libtflua-polaris.so \
+    vendor/samsung/p4wifi/proprietary/lib/libpolarisoffice_tablet.so:system/lib/libpolarisoffice_tablet.so \
+    vendor/samsung/p4wifi/proprietary/lib/libpolarisofficedump.so:system/lib/libpolarisofficedump.so
 # GApps
 PRODUCT_COPY_FILES += \
     vendor/samsung/p4wifi/proprietary/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh \
