@@ -184,7 +184,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/n7000/proprietary/app/PolarisOffice.apk:system/app/PolarisOffice.apk \
     vendor/samsung/n7000/proprietary/apps/SamsungAppsUNAService.apk:system/apps/SamsungAppsUNAService.apk \
-    vendor/samsung/n7000/proprietary/app/Mms.apk:system/app/Mms.apk \
     vendor/samsung/n7000/proprietary/etc/permissions/touchwiz.xml:system/etc/permissions/touchwiz.xml \
     vendor/samsung/n7000/proprietary/etc/permissions/secmediarecorder.xml:system/etc/permissions/secmediarecorder.xml \
     vendor/samsung/n7000/proprietary/framework/twframework.jar:system/framework/twframework.jar \
