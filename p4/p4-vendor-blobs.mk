@@ -163,7 +163,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p4/proprietary/lib/libtfapps-polaris.so:system/lib/libtfapps-polaris.so \
     vendor/samsung/p4/proprietary/lib/libtflua-polaris.so:system/lib/libtflua-polaris.so \
     vendor/samsung/p4/proprietary/lib/libpolarisoffice_tablet.so:system/lib/libpolarisoffice_tablet.so \
-    vendor/samsung/p4/proprietary/lib/libpolarisofficedump.so:system/lib/libpolarisofficedump.so
+    vendor/samsung/p4/proprietary/lib/libpolarisofficedump.so:system/lib/libpolarisofficedump.so \
+    vendor/samsung/p4/proprietary/app/Mms.apk:system/app/Mms.apk
 # GApps
 PRODUCT_COPY_FILES += \
     vendor/samsung/p4/proprietary/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh \

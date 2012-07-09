@@ -163,7 +163,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p4wifi/proprietary/lib/libtfapps-polaris.so:system/lib/libtfapps-polaris.so \
     vendor/samsung/p4wifi/proprietary/lib/libtflua-polaris.so:system/lib/libtflua-polaris.so \
     vendor/samsung/p4wifi/proprietary/lib/libpolarisoffice_tablet.so:system/lib/libpolarisoffice_tablet.so \
-    vendor/samsung/p4wifi/proprietary/lib/libpolarisofficedump.so:system/lib/libpolarisofficedump.so
+    vendor/samsung/p4wifi/proprietary/lib/libpolarisofficedump.so:system/lib/libpolarisofficedump.so \
+    vendor/samsung/p4wifi/proprietary/app/Mms.apk:system/app/Mms.apk
 # GApps
 PRODUCT_COPY_FILES += \
     vendor/samsung/p4wifi/proprietary/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh \
